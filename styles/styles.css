@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: #FEE715FF;
+  line-height: 1.6;
+  background-color:#101820;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color:#101820;
+}
+
+h1,h2{
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+h3{
+  color:#fff;
+  position: relative;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 35px;
+  background-color:  #008080;
+  padding:10px;
+  
+  
+}
+
+p{
+  margin: 10px 0;
+}
+
+img{
+  width:100%;
+}
+
+/* Navlist*/
+
+.navlist{
+  background-color: #101820;
+  color: #fff;
+  height: 70px;
+}
+
+.navlist ul{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  
+}
+
+.navlist a:hover{
+  border-bottom: 1px solid #FEE715FF;
+  
+}
+
+.navlist a{
+  color:#fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+.navlist .flex{
+  justify-content: space-between;
+}
+
+/* Show_content */
+.show{
+  height: 350px;
+  background-color:#FEE715FF;
+  color: #fff;
+  position: relative;
+}
+
+.show h2{
+  font-size: 40px;
+  
+}
+
+.show p{
+  margin: 20x 0;
+}
+
+
+.show::before,.show::after{
+  content: '';
+  position: absolute;
+  height: 60x;
+  bottom: -70px;
+  right:0;
+  left:0;
+  background:#fff;
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  
+}
+
+/* Classes used */
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.card{
+  background-color:#101820;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  padding: 25px;
+  margin: 30px;
+}
+
+/* Button styles */
+
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #008080;
+  color:#fff;
+  border:none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  -webit-transform: scale(.98);
+  transform: scale(.98);
+  
+}
+
+
+.flex{
+  display:-webkit-flex;
+  display:-ms-flex;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/*Anime Shows*/
+
+.anime_shows .flex{
+  flex-wrap: wrap;
+}
+.anime_shows .card{
+  
+  margin: 50px 10px 40px;
+  transition: transform 0.2s ease-in-out;
+  
+}
+
+.anime_shows .card h3{
+  margin-bottom: 10px;
+}
+
+
+.anime_shows .card:hover{
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+  
+}
+
+/* Footer */
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: #FEE715FF;
+  padding: 70px; 0;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+/*footer styles*/
+
+.footer-col h4{
+  font-size: 18px;
+  color: #000;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 300;
+  position:relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color:  #008080;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color:#000;
+  text-decoration: none;
+  font-weight:300;
+  display:block;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Footer hover effect*/
+
+.footer-col ul li a:hover{
+  color:#000;
+  padding-left: 8px;
+}
+
+
+
+
+
+

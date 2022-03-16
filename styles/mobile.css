@@ -1,0 +1,39 @@
+/* Tablets and under */
+@media(max-width: 768px){
+  .show{
+    height: auto;
+  }
+  
+  .show_text{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+}
+
+
+/*Mobile */
+@media(max-width:531px){
+  .navlist{
+    height: 110px;
+  }
+  
+  .navlist .flex{
+    flex-direction: column;
+  }
+  
+  .navlist ul{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.1);
+  }
+  .footer-col{
+    width:100%;
+  }
+  .image{
+    display:none;
+  }
+}

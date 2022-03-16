@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aimo watch the latest anime show thats popular right now" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="styles/styles.css" />
+        
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/mobile.css"
+        media="all and (max-width:767px)" />      
+        
+  <!-- Stylesheet link for print. -->
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/print.css"
+        media="print" />
+  
+  <title>Aimo</title>
+  <!--Favourite icons go here -->
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+  <!-- Icons for other devices -->
+  <link rel="apple-touch-icon" sizes="196x196" href="favicon-196.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png" />
+  <link rel="apple-touch-icon" sizes="167x167" href="favicon-167.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon-152.png" />
+  <link rel="apple-touch-icon" sizes="128x128" href="favicon-128.png" />
+  
+   <!--[if IE 8]>
+     <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
+   <![endif]--> 
+   
+  <!--[if lt IE 7]>
+    <p>Hm. You should upgrade your copy of Internet Explorer.</p>
+  <![endif]-->
+
+  <style>
+  
+    input{
+      outline:none;
+      border:none;
+    }
+    
+    .hd-form{
+      width:80%;
+    }
+    
+    .hd-form h2{
+      font-size: 2rem;
+      font-weight: 300;
+      color:#fff;
+    }
+    
+    .cont{
+      background-color: #000;
+      display: flex;
+      box-shadow: 5px 10px 38px rgba(0,0,0,0.2)
+    }
+    
+    .form{
+      display:-webkit-flex;
+      display:-ms-flex;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width:55%;
+    }
+    
+    .image{
+      width: 45%;
+    }
+    
+    .img{
+      max-width:100%;
+      height: auto;
+    }
+    
+    .wrap2{
+      width:80%;
+      position: relative;
+      border-bottom: 2px solid #008080;
+      margin-bottom: 13px;
+      
+    }
+    
+    .wrap{
+      display:-webkit-flex;
+      display:-ms-flex;
+      display: flex;
+      width:80%;
+      justify-content: center;
+    }
+    
+    .f1{
+      border-bottom: 2px solid #008080;
+      width: 40%;
+      position: relative;
+    }
+    
+    .f2{
+      border-bottom: 2px solid #008080;
+      margin-left: auto;
+      width: 50%;
+      position:relative;
+    }
+    
+    label{
+      font-size: 12px;
+      color:#FEE715FF;
+      line-height: 1.5;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display:-webkit-flex;
+      display:-ms-flex;
+      display: flex;
+      align-items: center;
+      width:80%;
+      min-height: 25px;
+      border-bottom: none;
+      padding:15px 0px;
+      margin-top: 10px;
+      padding-bottom: 2px;
+      
+    }
+    
+    input{
+      display: block;
+      width:100%;
+      font-size: 18px;
+      background: transparent;
+      color:#fff;
+      font-weight: 300;
+      padding: 10px 0px
+    }
+    
+    /* Button styles */
+    
+    .btn{
+      margin-top: 20px;
+      width: 200px;
+      height: 50px;
+      border-radius: 40px;
+      outline:none;
+      font-weight: 300;
+      font-size: 1rem;
+      border:none;
+      background: #008080;
+      color:#fff;
+      box-shadow: 8px 10px 30px rgba(0,0,0,0.2);
+      transition:0.4s
+      
+    }
+    .btn:hover{
+      background:#FEE715FF;
+      color:#000;
+    }
+    
+    input[type="number"]{
+      overflow: hidden;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+   <!-- Navbar -->
+   <div class="navlist">
+     <div class="wrapper flex">
+       <h1 style="color:#FEE715FF;">Aimo.</h1>
+       <nav>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="shows.html">Shows</a></li>
+           <li><a href="list.html">Lists</a></li>
+           <li><a href="popularity.html">Popularity</a></li>
+           <li><a href="register.html">Register</a></li>
+         </ul>
+       </nav>
+     </div>
+  </div>
+  </header>
+  
+  <div class="cont">
+   <!-- Form -->
+   
+    <div class="form">
+      <div class="hd-form">
+        <h2>Registration Form</h2>
+      </div>
+      <div class="wrap">
+        <div class="f1">
+          <label>First Name</label>
+          <input type="text">
+        </div>
+        
+        <div class="f2">
+          <label>Last Name</label>
+          <input type="text">
+        </div>
+      </div>
+      <div class="wrap2">
+        <label>Username</label>
+        <input type="text">
+      </div>
+       <div class="wrap2">
+        <label>E-Mail</label>
+        <input type="text">
+      </div>
+       <div class="wrap2">
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd">
+      </div>
+       <div class="wrap2">
+        <label>Phone Number</label>
+        <input type="number">
+      </div>
+      
+      <button class="btn">Register</button>
+    </div>
+     
+    <!-- Image -->
+    <div class="image">
+      <img src="images/kimetsu_cover.png" class="img" alt="side image" height="529" width="678" />
+    </div>
+    
+  
+</div>
+  
+  
+  <!--Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Aimo</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div> 
+        
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">figures</a></li>
+            <li><a href="#">manga</a></li>
+            <li><a href="#">merch</a></li>
+            <li><a href="#">games</a></li>
+          </ul>
+        </div>
+         
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <img src="images/media%20logos.jfif" alt="social">
+        </div>
+        
+      </div>
+    </div>
+    
+    <div id="last_modified">
+    <script>
+      document.scripts[document.scripts.length-1].parentNode.innerHTML = "Last Modified: " + document.lastModified;
+    </script>
+    </div>
+    
+  </footer>
+</body>
+</html>
